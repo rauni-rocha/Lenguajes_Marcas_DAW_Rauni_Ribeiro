@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <link rel="stylesheet" href="../estilo_tema8.css">
+    <style>
+.primera { box-sizing: content-box; width: 260px; padding: 20px; border: 8px solid black; background-color: #eeeeee; }
+.segunda { box-sizing: border-box; width: 260px; padding: 20px; border: 8px solid black; background-color: #eeeeee; }
+</style>
+</head>
+<body>
+
+<main><h1>box-sizing</h1><a href="../index.html">Volver al tema 8</a>
+<section><p>Las dos cajas tienen width: 260px, padding: 20px y border: 8px. Pero el tamaño final cambia.</p>
+<h2>content-box</h2><div class="primera">Aquí el padding y el borde se suman al ancho.</div>
+<h2>border-box</h2><div class="segunda">Aquí entra todo dentro de los 260px.</div>
+</section></main>
+
+</body>
+</html>

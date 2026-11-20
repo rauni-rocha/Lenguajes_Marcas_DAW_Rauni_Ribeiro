@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Curso</title>
+    <link rel="stylesheet" href="estilo_tabla1.css">
+
+</head>
+<body>
+
+<p><a href="index.html">Tema 5</a></p><h1>Inscripción a curso de tecnologia</h1>
+<form action="procesar.php" method="post">
+<p><label>Nombre completo: <input name="nombre" type="text" required></label></p>
+<p><label>Email: <input name="correo" type="email" required></label></p>
+<p><label>Edad: <input name="edad" type="number" min="1"></label></p>
+<p><label>Curso:
+<select name="curso"><option>HTML y CSS</option><option>Bases de datos</option><option>Linux básico</option></select></label></p>
+<p>Turno: <label><input type="radio" name="turno" value="mañana">Mañana</label>
+<label><input type="radio" name="turno" value="tarde">Tarde</label></p>
+<p><label><input type="checkbox" name="acepto" value="si" required>Acepto las condiciones</label></p>
+<p><label>Dudas:<br><textarea name="dudas" cols="35" rows="5"></textarea></label></p>
+<p><input type="submit" value="Enviar"></p></form>
+
+</body>
+</html>

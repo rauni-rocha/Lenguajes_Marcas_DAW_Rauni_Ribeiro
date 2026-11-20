@@ -1,0 +1,10 @@
+LENGUAJES PARA DESARROLLO WEB
+
+HTML: sirve para organizar el contenido de la página. No es un lenguaje de programación.
+CSS: cambia colores, tamaños y posiciones de los elementos.
+JavaScript: se usa para dar interactividad a una web.
+PHP: puede procesar datos en un servidor.
+Java: se utiliza para muchos programas y también para aplicaciones web.
+Python: lenguaje muy conocido para automatización y otros usos.
+
+No todos se usan para la misma parte de una página.

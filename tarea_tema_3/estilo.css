@@ -1,0 +1,8 @@
+body { background-color: white; color: black; }
+header { text-align: center; }
+main { width: 85%; max-width: 850px; margin: 20px auto; }
+nav { border: 1px solid black; padding: 10px; }
+nav a { margin: 8px; }
+section { border: 1px solid black; padding: 10px; margin: 15px 0; }
+img { display: block; width: 100px; height: 100px; margin: 12px 0; }
+a { color: black; }

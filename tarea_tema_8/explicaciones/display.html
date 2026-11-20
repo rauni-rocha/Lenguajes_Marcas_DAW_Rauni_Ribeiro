@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display CSS</title>
+    <link rel="stylesheet" href="../estilo_tema8.css">
+    <style>
+.bloque { display: block; background-color: #eeeeee; padding: 10px; margin: 5px; }
+.enlinea { display: inline; background-color: #eeeeee; padding: 5px; }
+.medio { display: inline-block; background-color: #eeeeee; padding: 15px; width: 120px; margin: 5px; }
+.oculto { display: none; }
+.flexible { display: flex; gap: 15px; background-color: white; border: 1px solid black; padding: 12px; }
+.flexible div { background-color: #eeeeee; padding: 15px; }
+</style>
+</head>
+<body>
+
+<main><h1>Propiedad display</h1><a href="../index.html">Volver al tema 8</a>
+<p>Podemos modificar como aparecen los elementos.</p>
+<section><h2>block</h2><span class="bloque">Primero</span><span class="bloque">Segundo</span>
+<h2>inline</h2><span class="enlinea">Uno</span><span class="enlinea">Dos</span>
+<h2>inline-block</h2><span class="medio">Caja A</span><span class="medio">Caja B</span>
+<h2>none</h2><div class="oculto">Este div no se ve.</div><p>El div oculto no ocupa sitio.</p>
+<h2>flex</h2><div class="flexible"><div>Brasil</div><div>España</div><div>DAW</div></div>
+</section></main>
+
+</body>
+</html>

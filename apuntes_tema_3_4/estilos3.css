@@ -1,0 +1,5 @@
+body { background-color: white; color: black; }
+main { max-width: 800px; margin: 20px auto; }
+h2 { border-bottom: 1px solid black; }
+.caja { padding: 15px; margin: 20px 0; border: 3px double black; }
+a { color: black; }

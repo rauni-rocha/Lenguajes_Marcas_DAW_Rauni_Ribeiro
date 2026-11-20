@@ -1,0 +1,12 @@
+body { background-color: white; color: black; }
+header { text-align: center; border-bottom: 1px solid black; }
+nav { padding: 10px; border-bottom: 1px solid black; }
+nav a { margin-right: 10px; }
+main { max-width: 1000px; margin: auto; }
+section { padding: 12px; margin: 18px 0; border: 1px solid black; }
+article { border: 1px solid #999; margin: 10px 0; padding: 10px; display: flex; gap: 15px; align-items: center; }
+figure { margin: 0; width: 230px; }
+figure img { width: 220px; height: 140px; }
+aside { border: 1px solid black; padding: 10px; }
+footer { text-align: center; }
+a { color: black; }

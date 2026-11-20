@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Pedido</title>
+    <link rel="stylesheet" href="estilo_tabla1.css">
+
+</head>
+<body>
+
+<p><a href="index.html">Tema 5</a></p><h1>Pedido de accesorios informáticos</h1>
+<form action="procesar.php" method="post">
+<p><label>Nombre: <input type="text" name="cliente" required></label></p>
+<p><label>Correo: <input type="email" name="correo"></label></p>
+<p><label>Fecha de entrega: <input type="date" name="fecha"></label></p>
+<p><label>Color del producto: <input type="color" name="color"></label></p>
+<p><label>Cantidad: <input type="range" name="cantidad" min="1" max="10"></label></p>
+<p><label>Producto:
+<select name="producto" size="4"><option>Ratón</option><option>Teclado</option><option>Alfombrilla</option><option>Auriculares</option></select></label></p>
+<p><label><input type="checkbox" name="confirmado" value="si">Confirmo el pedido</label></p>
+<p><label>Observaciones:<br><textarea name="comentarios" cols="35" rows="5"></textarea></label></p>
+<p><input type="submit" value="Realizar pedido"></p></form>
+
+</body>
+</html>
