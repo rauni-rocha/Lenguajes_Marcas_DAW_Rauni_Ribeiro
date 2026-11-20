@@ -28,10 +28,3 @@ Los ejercicios son HTML y CSS basicos. Los formularios mandan datos a `procesar.
 y para que ese archivo funcione hace falta un servidor con PHP. Si abro los HTML
 como archivos locales, el PHP no se ejecuta.
 
-## Imagenes
-
-La carpeta `tarea_tema_6/img/` tiene imágenes provisionales para la práctica semántica.
-Quiero cambiarlas por fotografías relacionadas con los animales. Tengo la lista
-en `IMAGENES_POR_CAMBIAR.md`. La imagen del aula del tema 4 también es provisional.
-
-**Nota:** este repositorio es para las prácticas del curso, no es una web profesional.
